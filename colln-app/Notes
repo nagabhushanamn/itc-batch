@@ -1,0 +1,50 @@
+
+
+Manage Employees
+-----------------
+
+ add()
+ get()
+ update()
+ delete()
+ sort()
+ search()
+ 
+ 
+ //----------------------
+ 
+ Employee
+ 
+   id
+   name
+   salary
+   
+ -------------------------
+ 
+ 
+ Model ==> business data
+ 
+ //------------------------
+ 
+ 
+  Layer(s)
+  
+  --> service-layer   : processing logic
+  --> data-layer      : persisting data
+  
+  
+//--------------------------------  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+   
+    

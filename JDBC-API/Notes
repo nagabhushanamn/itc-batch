@@ -1,0 +1,137 @@
+
+
+  s/w
+  
+    a. application  ==> process data based on logic
+    
+    b. data-store   ==> persist data
+    
+    
+       --> file-system
+       
+           limitations of File-System
+           
+           --> data manipulation is very difficult
+           --> data redundancy
+           --> data constraints
+           --> security
+           
+       --> databases  ( relational model )
+       
+       	   RDBMS products
+       	   	
+           e.g    
+           
+           -> Mysql
+           -> Oracle
+           -> SQL server
+           -> Sybase
+           -> DB2
+           
+           etc......
+           
+           
+       --> NOSQL  data-store   
+       
+          e.g
+          
+          --> MongoDB
+          
+        --> cloud   
+           
+           
+       -----------------------------------------------------
+       
+       
+       
+       s/w
+       
+       a. Application
+       
+          model : Object
+          
+       
+       b. Database
+       
+          model : Relational/Entity
+       
+       
+       ORM ( Object Relational Mapping )
+       
+       
+       
+       how to do ORM in .java based appln?
+       
+       
+        using JDBC ( Java DataBase Connectivity API ) API ==> java.sql.*;
+        
+      --------------------------------------------------------------
+      
+      basic steps to use JDBC-API :
+      
+      1. register JDBC-driver with JDBC-API
+      2. create connection with DB-server
+      
+      3. create jdbc-statements with SQL
+      4. execute jdbc-statements and process results
+      
+      5. Manage Txns ( commit or Rollback )
+      6. Handle SQLExceptions
+      
+      7. close connection after success/failure
+      
+      -------------------------------------------------------------
+      
+      1. Register JDBC Driver 
+      
+        types of drivers
+        
+        1. Type-1 or JDBC-ODBC bridge driver  ==> provided by JDBC-API
+        2. Type-2
+        3. Type-3
+        4. Type-4
+        
+           --> most used driver
+           --> pure java-driver
+           --> provided by 'DBMS' vendors
+
+       --------------------------------------------      
+      
+      
+      2. register Driver with JDBC API and create Connection with DB
+      
+      
+      --------------------------------------------
+      
+      
+      
+      Limitations/complexities of JDBC API
+      
+      
+      --> too much code for simple operations
+      --> connection management is manual
+      --> code partially depends on DBMS.
+      --> too many queries for simple operations
+      
+      --> associations b/w tables need to manage manually.
+      
+      
+      ----------------------------------------
+      
+        
+       
+       
+       
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+  
+  

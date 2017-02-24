@@ -1,0 +1,61 @@
+
+
+
+
+Abstraction and Encapsulation
+------------------------------
+
+How to implement in java-lang ?
+
+
+  --> using access-specifiers and packgaes
+  --> using accessor methods ( set/get )
+  
+  --> using class & interfaces
+  
+  --> using design-patteerns
+  
+  
+  --------------------------------
+  
+  using access-specifiers
+  
+  
+  e.g
+  
+    
+    P1
+    
+      A.java
+      B.java extends A
+      C.java
+      
+    P2
+    
+     D.java extends A
+     E.java  
+      
+      
+      
+  
+  			----------------------------------------------------------
+  			same-package   					     |other-package
+  			------------------------------------------------------------
+  			same-class | sub-class | other-class | sub-class | other-class
+  			----------------------------------------------------------
+  			
+ private       Y           N            N            N			  N
+               Y           Y            Y            N			  N
+ protected     Y           Y            Y            Y			  N 
+ public        Y           Y            Y            Y			  Y
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

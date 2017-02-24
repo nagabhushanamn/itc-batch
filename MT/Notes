@@ -1,0 +1,61 @@
+
+
+Process vs Thread
+
+Process
+
+ ==> whole execution in OS
+ ==> has its own memory
+ 
+ Thread
+ 
+ ==> single piece of independent execution in process.
+ ==> one process can have multiple threads
+ ==> all threads can share same-memory.
+ 
+ 
+ Multi-Threading
+ 
+ ==>splitting one process into multiple-pieces
+ 
+ 
+  why we need ?
+  
+  --> to utilize system h/w effectively.
+  --> for concurrency
+  
+  
+  e.g
+  
+   --> most web-servers
+   
+  
+  
+  //-----------------------------------
+  
+  basic steps to implement multiple-threads 
+  
+  
+    1. create instance of 'java.lang.Thread'
+    2. assign 'runnable' obj to thread
+    3. start thread  ==> new stack
+    
+    4. manage thread-life-cycle
+    
+    5. when no more work , thread will di
+    
+    
+    ------------------------------------
+    
+  
+  
+  
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+ 

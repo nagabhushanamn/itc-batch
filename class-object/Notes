@@ -1,0 +1,17 @@
+
+
+ java naming conventions
+ -------------------------
+ 
+ keywords (50 ) ==> lower-case
+ 
+ package-names  ==> lower-case
+ 
+ Type ( class , interface , enum , annotation ) ==> pascal-case
+ 
+ var & method  ==> camel-case 
+ 
+ constant-var  ==> upper-case
+ 
+ 
+ 

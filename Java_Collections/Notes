@@ -1,0 +1,115 @@
+
+
+  data-structures
+  ---------------
+  
+  organizing memory to store data.
+  oprn : CRUDSS
+  
+ 
+  types 
+  ------
+  
+  1. primary   e.g  int a=12;
+  2. secondary 
+  
+      i. linear
+      
+      		array
+      		linkedlist
+      		...
+      
+      ii. non-linear
+      
+            tree
+            graph
+            
+ ----------------------------------------------
+ 
+ collections F.W
+ 
+  ==> defined/ready-made data structure impln in java-lang from java community
+  
+  Benefits of the Java Collections Framework
+  
+  => Reduces programming effort
+  => increases program speed and quality
+  => Allows interoperability among unrelated APIs
+  => Reduces effort to learn and to use new APIs
+ 
+ --------------------------------------------------
+ 
+ types of collections
+ 
+ 
+  1. List
+  
+  	==> ordered o/p
+  	==> indexed
+  	==> can maintain duplicates
+  
+  2. Set
+  
+  	==> unique
+  	==> No index
+  
+  3. Map
+  
+    ==> to group obj with user defined identity(key)
+    
+    ----------------------------------------------
+    
+    
+    collection F.W classes ( java.util.* )
+    
+    
+    
+    A. List
+    
+       Vector     ==> array  ( thread-safe )
+       ArrayList  ==> array  ( not-thread-safe )
+       LinkedList ==> DLL    ( not-thread-safe )
+       Stack      ==> stack  ( LIFO )  extends Vector
+       
+    B. Set
+    
+       TreeSet   ==> B-Tree   --> sorted
+       HashSet   ==> Hashtable --> un-ordered
+       LinkedHashSet   ==> DLL + Hashtable --> ordered
+ 
+ 	C. Map
+ 
+ 	   TreeMap   ==> B-Tree   --> sorted
+       HashMap   ==> Hashtable --> un-ordered
+       LinkedHashMap   ==> DLL + Hashtable --> ordered
+ 
+ 	   HashMap  ==> Hashtable ( thread-safe )	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            
+            
+            
+            
