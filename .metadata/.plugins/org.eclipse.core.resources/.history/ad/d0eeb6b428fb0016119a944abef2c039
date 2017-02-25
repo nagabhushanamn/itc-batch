@@ -1,0 +1,15 @@
+
+
+
+  AbstractClass Vs Interfaces
+  -------------------------------
+  
+  
+  
+  
+  module-1
+  ----------
+  
+      Top-Level    : Interfaces
+      Middle-Level : Abstract-Class ( optional , if required inheritance )
+      Bottom-Level : Concrete-eClass
