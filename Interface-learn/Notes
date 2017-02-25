@@ -1,0 +1,4 @@
+
+
+   // dependent  : Car ==> move()
+   // dependency : Wheel ==> rotate()

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;PriceMatrixImpl_v1.java&apos; to &apos;shopIT/src/com.shop.pm&apos;&#x0A;- Original project: &apos;shopIT&apos;&#x0A;- Destination element: &apos;shopIT/src/com.shop.pm&apos;&#x0A;- Original element: &apos;com.shop.pm.PriceMatrixImpl_v1.java&apos;" description="Copy compilation unit" destination="/src&lt;com.shop.pm" element1="/src&lt;com.shop.pm{PriceMatrixImpl_v1.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1488005528017" units="1" version="1.0"/>
+</session>

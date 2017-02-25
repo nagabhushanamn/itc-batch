@@ -1,0 +1,19 @@
+package com.shop.bill;
+
+import java.util.List;
+
+public class BillingImpl {
+
+	public double getTotalPrice(List<String> cart) {
+
+		double total = 0.0;
+
+		for (String item : cart) {
+			// ..
+		}
+
+		return total;
+
+	}
+
+}

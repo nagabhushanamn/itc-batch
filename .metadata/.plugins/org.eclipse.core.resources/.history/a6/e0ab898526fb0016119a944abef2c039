@@ -1,0 +1,18 @@
+package com;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class App {
+	
+	public static void main(String[] args) {
+		
+		List<String> cart=new ArrayList<String>();
+		cart.add("123");
+		cart.add("786");
+		
+		
+		
+	}
+
+}

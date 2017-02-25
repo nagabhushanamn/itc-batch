@@ -1,0 +1,13 @@
+package com.car;
+
+import com.wheel.MRFWheel;
+
+public class Car {
+
+
+	public void move() {
+		mrfWheel.rotate();
+		System.out.println("Car moving...");
+	}
+
+}
