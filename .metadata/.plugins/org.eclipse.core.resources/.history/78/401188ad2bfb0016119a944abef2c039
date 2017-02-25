@@ -1,0 +1,16 @@
+package com;
+
+interface I{
+	
+	int V=12;
+	
+	public abstract void a();
+	void b();
+}
+
+
+public class Interface_Syntax {
+	public static void main(String[] args) {
+
+	}
+}

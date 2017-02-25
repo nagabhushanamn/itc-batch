@@ -1,0 +1,12 @@
+package com;
+
+interface I{
+	
+}
+
+
+public class Interface_Syntax {
+	public static void main(String[] args) {
+
+	}
+}

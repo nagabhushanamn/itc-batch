@@ -1,0 +1,18 @@
+package com;
+
+interface I{
+	public final static int V=12;
+	public abstract void a();
+	void b();
+}
+
+class Impl implements I{
+	
+}
+
+
+public class Interface_Syntax {
+	public static void main(String[] args) {
+
+	}
+}

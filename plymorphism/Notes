@@ -1,0 +1,14 @@
+
+
+
+ Polymorphism ==> many forms
+ 
+ 
+ why we need ?
+ 
+  to satisfy "closed for modification, open for extension princepal"
+  
+  
+  
+  way-1 : static   ==> method overloading syntax
+  way-2 : dynamic  ==> method overriding  e.g refer God class
