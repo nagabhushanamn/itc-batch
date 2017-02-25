@@ -1,0 +1,17 @@
+package plymorphism;
+
+class Person{
+	
+	public void eat() {
+		
+	}
+	
+}
+
+public class Static_Polymorphism {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
