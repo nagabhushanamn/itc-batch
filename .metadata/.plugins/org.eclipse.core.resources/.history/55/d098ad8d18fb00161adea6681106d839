@@ -1,0 +1,20 @@
+package com;
+
+
+class A{
+	
+}
+class B extends A{
+	
+}
+class C extends B{
+	
+}
+
+public class Constructor_Exe_Flow {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

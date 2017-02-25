@@ -1,0 +1,9 @@
+package com.emp;
+
+public class Employee {
+	
+	public int id;
+	public String name;
+	public double salary;
+
+}

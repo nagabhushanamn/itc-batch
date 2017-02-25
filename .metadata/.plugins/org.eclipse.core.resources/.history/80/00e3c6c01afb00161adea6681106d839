@@ -1,0 +1,16 @@
+package com;
+
+import com.god.God;
+
+public class App {
+	
+	public static void main(String[] args) {
+		
+		God god=new God();
+		
+		
+		
+		
+	}
+
+}

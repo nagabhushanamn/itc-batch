@@ -1,0 +1,11 @@
+package com.emp;
+
+public class TechEmployee {
+	
+	//
+	public int id;
+	public String name;
+	public double salary;
+	
+
+}
