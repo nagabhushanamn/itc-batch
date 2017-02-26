@@ -1,0 +1,66 @@
+
+
+
+database ==> Relational Model
+application ==> Object Model
+
+
+ORM ( Object Relational Mapping )
+
+
+
+
+
+ Limitations of JDBC-API
+ --------------------------
+ 
+ --> connection management is manual
+ --> too many queries for simple operations
+ --> too  much duplicate code
+ --> jdbc-code partially depened on DBMS product
+ 
+ --> no cache support for frequently used records.
+ --> association b/w tables need to be managed manually.
+ 
+ --> poor performance if queries are not optimized..
+ 
+----------------------------------------------------------
+
+solns : using ORM Frameworks
+
+
+  1. Hibernate ==> JBOSS community  ( much used )
+  2. Toplink   ==> Oracle
+  3. Eclipselink ==> Eclipse community
+  4. iBatis      ==> Apache
+  5. JDO
+  
+  
+  Hibernate ==> advantages
+  ---------------------------
+  
+   --> performance  ( thru cache support )
+   --> simple to use
+   --> most queries are auto generated based on DBMS.
+   
+  
+  ----------------------------------------- 
+  
+  steps to use Hibernate :
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+

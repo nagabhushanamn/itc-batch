@@ -1,0 +1,45 @@
+package com.shop.crud;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.mysql.jdbc.Driver;
+import com.shop.entity.Book;
+
+public class UpdateBook {
+
+	public static void main(String[] args) throws SQLException {
+
+		// ----------------------------------
+
+		
+
+		// Using Hibernate API
+		
+		Configuration cfg=new Configuration();
+		cfg.configure("hibernate.cfg.xml");
+		SessionFactory sessionFactory=cfg.buildSessionFactory();
+		
+		Session session=sessionFactory.openSession();
+		session.getTransaction().begin();
+
+		Book book=session.get(Book.class, "12345");
+		
+		book.setPrice(800.00);
+		
+		session.update(book);
+		
+		
+		session.getTransaction().commit();
+		sessionFactory.close();
+
+
+	}
+
+}

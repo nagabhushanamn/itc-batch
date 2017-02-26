@@ -1,0 +1,13 @@
+package com.shop.crud;
+
+import java.awt.print.Book;
+
+public class InsertBook {
+	
+	public static void main(String[] args) {
+		
+		Book book=new Book();
+		
+	}
+
+}

@@ -1,0 +1,65 @@
+package com.shop.crud;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.mysql.jdbc.Driver;
+import com.shop.entity.Book;
+
+public class RetreiveBook {
+
+	public static void main(String[] args) throws SQLException {
+
+		// ----------------------------------
+
+		// Using JDBC API
+
+		// step-1
+		DriverManager.registerDriver(new Driver());
+
+		// step-2
+		String url = "jdbc:mysql://localhost:3306/mysql";
+		String user = "root";
+		String password = "root";
+
+		Connection con = DriverManager.getConnection(url, user, password);
+
+		// step-3
+		String sql = "select * from BOOKS where price > 600";
+		PreparedStatement ps = con.prepareStatement(sql);
+
+		ResultSet rs = ps.executeQuery();
+
+		List<Book> books = new ArrayList<>();
+
+		while (rs.next()) {
+
+			Book book = new Book();
+			book.setIsbn(rs.getString("ISBN"));
+			book.setName(rs.getString("NAME"));
+			book.setPrice(rs.getDouble("PRICE"));
+			book.setAuthor(rs.getString("AUTHOR"));
+
+			books.add(book);
+
+		}
+
+		// step-4
+		con.close();
+
+		
+		// display in console
+		
+		for(Book book:books){
+			System.out.println(book);
+		}
+		
+
+	}
+
+}

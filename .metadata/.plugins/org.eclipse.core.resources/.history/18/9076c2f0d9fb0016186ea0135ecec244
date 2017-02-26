@@ -1,0 +1,12 @@
+package com.shop.entity;
+
+public class Book {
+	
+	private String isbn;
+	private String name;
+	private double price;
+	private String author;
+	
+	
+
+}

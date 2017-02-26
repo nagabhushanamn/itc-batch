@@ -1,0 +1,28 @@
+package com.shop.crud;
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import com.mysql.jdbc.Driver;
+import com.shop.entity.Book;
+
+public class InsertBook {
+
+	public static void main(String[] args) throws SQLException {
+
+		Book book = new Book();
+		book.setIsbn("54321");
+		book.setName("JDBC");
+		book.setPrice(500.00);
+		book.setAuthor("Ria");
+
+		// ----------------------------------
+
+		// Using JDBC API
+
+		// step-1
+		DriverManager.registerDriver(new Driver());
+
+	}
+
+}

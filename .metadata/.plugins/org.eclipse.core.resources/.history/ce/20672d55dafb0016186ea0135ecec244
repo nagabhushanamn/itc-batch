@@ -1,0 +1,11 @@
+package com.shop.crud;
+
+public class InsertBook {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

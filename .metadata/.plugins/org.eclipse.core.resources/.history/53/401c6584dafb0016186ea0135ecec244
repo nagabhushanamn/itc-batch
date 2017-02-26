@@ -1,0 +1,17 @@
+package com.shop.crud;
+
+import com.shop.entity.Book;
+
+public class InsertBook {
+
+	public static void main(String[] args) {
+
+		Book book = new Book();
+		book.setIsbn("54321");
+		book.setName("JDBC");
+		book.setPrice(500.00);
+		book.setAuthor("Ria");
+
+	}
+
+}

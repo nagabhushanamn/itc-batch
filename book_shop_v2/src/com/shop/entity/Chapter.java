@@ -1,0 +1,52 @@
+package com.shop.entity;
+
+import javax.persistence.EmbeddedId;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "CHAPTERS", schema = "mysql")
+public class Chapter {
+
+	@Id
+	private int idx;
+
+	private String title;
+
+	@ManyToOne(targetEntity = Book.class)
+	@JoinColumn(name = "isbn")
+	private Book book;
+
+	@Override
+	public String toString() {
+		return "Chapter [idx=" + idx + ", title=" + title + ", book=" + book + "]";
+	}
+
+	public int getIdx() {
+		return idx;
+	}
+
+	public void setIdx(int idx) {
+		this.idx = idx;
+	}
+
+	public Book getBook() {
+		return book;
+	}
+
+	public void setBook(Book book) {
+		this.book = book;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+}

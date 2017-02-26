@@ -1,0 +1,23 @@
+
+
+
+database ==> Relational Model
+application ==> Object Model
+
+
+ORM ( Object Relational Mapping )
+
+
+
+
+
+ Limitations of JDBC-API
+ --------------------------
+ 
+ --> connection management is manual
+ --> too many queries for simple operations
+ --> too  much duplicate code
+ --> jdbc-code partially depened on DBMS product
+ 
+ --> no cache support for frequently used records.
+
