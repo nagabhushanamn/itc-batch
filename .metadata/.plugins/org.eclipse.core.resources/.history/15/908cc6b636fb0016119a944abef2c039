@@ -1,0 +1,24 @@
+package com;
+
+
+class Student{
+	
+	// class/sattic variables
+	final static String COLLEGE_NAME="ABC";
+	static String tnrName;
+	
+	// 
+	
+}
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		Student.tnrName="Nag";
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,12 @@
+package com;
+
+
+
+
+public class Inner_Class_Demo {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

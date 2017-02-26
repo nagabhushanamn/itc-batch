@@ -1,0 +1,21 @@
+package com;
+
+public class Ques {
+	
+	public static void main(String[] args) {
+		
+		String[] records={
+		                "NAME,DEP1,3000",
+		                "NAME,DEP2,4000",
+		                "NAME,DEP2,5000",
+		                "NAME,DEP1,6000"
+		};
+		
+		
+		
+		
+		
+		
+	}
+
+}

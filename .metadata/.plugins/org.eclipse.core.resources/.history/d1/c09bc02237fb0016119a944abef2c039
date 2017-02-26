@@ -1,0 +1,34 @@
+package com;
+
+
+class Student{
+	
+	// class/static variables
+	final static String COLLEGE_NAME="ABC";
+	static String tnrName;
+	
+	// instance/object variables
+	int id;
+	String name;
+	
+	// class/static methods
+	static void teach(){
+		//..
+	}
+	
+}
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		// Student.tnrName="Nag";
+		// Student.teach();
+		
+		Student stud=new Student();
+		stud.tnrName="Nag";
+		
+		
+	}
+	
+}

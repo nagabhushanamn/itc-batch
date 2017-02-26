@@ -1,0 +1,29 @@
+package com;
+
+class Person {
+
+}
+
+public class Multi_Dimensional_Array {
+
+	public static void main(String[] args) {
+
+		// int a[]=new int[10];
+
+		// Person p = new Person();
+		// int[] a = new int[10];
+
+		// int size=10;
+		// int[] arr=new int[size];
+
+		// int[] arr={1,2,3,4,5};
+		
+		//------------------------------------
+		
+		
+		
+		
+
+	}
+
+}

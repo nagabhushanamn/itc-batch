@@ -1,0 +1,17 @@
+package com;
+
+
+class Student{
+	
+	// class variables
+	static String tnrName;
+	
+}
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

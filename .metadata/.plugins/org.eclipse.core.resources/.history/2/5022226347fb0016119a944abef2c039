@@ -1,0 +1,30 @@
+package com;
+
+import java.util.Map;
+import java.util.TreeMap;
+
+public class Ques {
+
+	public static void main(String[] args) {
+
+		String[] records = { "NAME,DEP1,3000", "NAME,DEP2,4000", "NAME,DEP2,5000", "NAME,DEP1,6000" };
+
+		Map<String, Double> map = new TreeMap<String, Double>();
+
+		for (String record : records) {
+			String[] tokens = record.split(",");
+			String dep = tokens[1];
+			String salary=tokens[2];
+			if (map.containsKey(dep)) {
+				double total = map.get(dep) + Double.parseDouble(salary);
+				map.put(dep, total);
+			} else {
+				map.put(dep, Double.parseDouble(tokens[2]));
+			}
+		}
+
+		System.out.println(map);
+
+	}
+
+}

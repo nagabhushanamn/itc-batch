@@ -1,0 +1,18 @@
+package com;
+
+import java.util.Map;
+import java.util.TreeMap;
+
+public class Ques {
+
+	public static void main(String[] args) {
+
+		String[] records = { "NAME,DEP1,3000", "NAME,DEP2,4000", "NAME,DEP2,5000", "NAME,DEP1,6000" };
+
+		Map<String, Double> report=new TreeMap<>();
+		
+		
+		
+	}
+
+}

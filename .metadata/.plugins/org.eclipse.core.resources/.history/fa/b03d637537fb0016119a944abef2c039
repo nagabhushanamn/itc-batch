@@ -1,0 +1,52 @@
+package com;
+
+//class Student {
+//
+//	// class/static variables
+//	final static String COLLEGE_NAME = "ABC";
+//	static String tnrName;
+//
+//	// instance/object variables
+//	int id;
+//	String name;
+//
+//	// class/static methods
+//	static void teach() {
+//		// ..
+//	}
+//
+//}
+
+
+class Abc{
+	
+	static int sta=1;
+	int ins=2;
+	
+	void insMethod(){
+		System.out.println(sta);
+		System.out.println(ins);
+	}
+	
+	static void staMethod(){
+		System.out.println(sta);
+	}
+	
+}
+
+
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		// Student.tnrName="Nag";
+		// Student.teach();
+		
+		Abc abc=new Abc();
+		abc.ins=100;
+		abc.insMethod();
+
+	}
+
+}

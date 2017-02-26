@@ -1,0 +1,20 @@
+package com;
+
+
+class Student{
+	
+	// class variables
+	static String collegeName;
+	static String tnrName;
+	
+}
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		Student.tnrName="Nag";
+		
+	}
+	
+}

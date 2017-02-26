@@ -1,0 +1,20 @@
+package com;
+
+class LinkedList {
+
+	private int out_ins_var = 1;
+	private static int out_sta_var = 2;
+
+	private class Node {
+
+	}
+
+}
+
+public class Inner_Class_Demo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

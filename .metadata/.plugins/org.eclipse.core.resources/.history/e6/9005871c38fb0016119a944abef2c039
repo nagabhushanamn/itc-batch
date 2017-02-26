@@ -1,0 +1,16 @@
+package com;
+
+/*
+ *  3 types of variables based on scope
+ *  
+ *   1. local
+ *   2. instance
+ *   3. static
+ * 
+ */
+
+
+
+public class Variable_Scope {
+
+}

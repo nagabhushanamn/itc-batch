@@ -1,0 +1,12 @@
+package com;
+
+public class StringBuffer_Demo {
+	
+	public static void main(String[] args) {
+		
+		StringBuffer sb=new StringBuffer("a");
+		
+		
+	}
+
+}

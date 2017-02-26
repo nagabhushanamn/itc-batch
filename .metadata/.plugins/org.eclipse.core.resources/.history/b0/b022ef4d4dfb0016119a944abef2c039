@@ -1,0 +1,18 @@
+package com;
+
+public class Warapper_Class_Demo {
+	
+	public static void main(String[] args) {
+		
+		int a=12;
+		Integer integer1=new Integer(a); // wrapper
+		
+		int b=12;
+		Integer integer2=new Integer(b);
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;static-use&apos; to &apos;Ques4&apos;&#x0A;- Original element: &apos;static-use&apos;&#x0A;- Renamed element: &apos;static-use&apos;&#x0A;- Update references to refactored element" description="Rename Java project &apos;static-use&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=static-use" name="Ques4" references="true" stamp="1488013612680" version="1.0"/>
+</session>

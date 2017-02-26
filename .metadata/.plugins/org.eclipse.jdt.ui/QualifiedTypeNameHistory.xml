@@ -1,2 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.live.Robot"/>
+<fullyQualifiedTypeName name="com.live.LivingThing"/>
+<fullyQualifiedTypeName name="com.live.Human"/>
+<fullyQualifiedTypeName name="com.live.Male"/>
+<fullyQualifiedTypeName name="com.car.Car"/>
+<fullyQualifiedTypeName name="com.wheel.Wheel"/>
+<fullyQualifiedTypeName name="java.util.WeakHashMap"/>
+<fullyQualifiedTypeName name="com.wheel.MRFWheel"/>
+<fullyQualifiedTypeName name="com.wheel.CEATWheel"/>
+<fullyQualifiedTypeName name="com.shop.pm.PriceMatrixImpl_v1"/>
+<fullyQualifiedTypeName name="com.shop.bill.BillingImpl"/>
+<fullyQualifiedTypeName name="com.shop.pm.PriceMatrix"/>
+<fullyQualifiedTypeName name="com.shop.pm.PriceMatrixImpl_v2"/>
+<fullyQualifiedTypeName name="my.util.Collection"/>
+<fullyQualifiedTypeName name="my.util.List"/>
+<fullyQualifiedTypeName name="my.util.AbstractList"/>
+<fullyQualifiedTypeName name="plymorphism.Person"/>
+<fullyQualifiedTypeName name="com.Student"/>
+<fullyQualifiedTypeName name="com.Abc"/>
+<fullyQualifiedTypeName name="com.Quiz"/>
+<fullyQualifiedTypeName name="com.LinkedList.Node"/>
+<fullyQualifiedTypeName name="com.LinkedList"/>
+<fullyQualifiedTypeName name="com.R"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.TreeMap"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.Person"/>
+<fullyQualifiedTypeName name="org.omg.Messaging.SyncScopeHelper"/>
+</qualifiedTypeNameHistroy>

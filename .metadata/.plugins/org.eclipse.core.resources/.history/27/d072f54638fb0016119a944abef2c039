@@ -1,0 +1,37 @@
+package com;
+
+/*
+ *  3 types of variables based on scope
+ *  
+ *   1. local
+ *   2. instance
+ *   3. static
+ * 
+ */
+
+class Person{
+	String name;
+	public void sayHello() {
+		System.out.println("Hello..");
+	}
+}
+
+public class Variable_Scope {
+	
+	public static void main(String[] args) {
+		
+		Person person1=new Person();
+		person1.name="Nag";
+		
+		Person person2=new Person();
+		person2.name="Ria";
+		
+		
+		person1.sayHello();
+		person2.sayHello();
+		person2.sayHello();
+		
+		
+	}
+
+}

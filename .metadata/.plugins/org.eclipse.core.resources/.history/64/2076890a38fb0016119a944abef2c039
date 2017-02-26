@@ -1,0 +1,10 @@
+package com;
+
+/*
+ *  3 types of variables based on scope
+ * 
+ */
+
+public class Variable_Scope {
+
+}
