@@ -1,0 +1,45 @@
+package com.pm.dao;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+
+import com.pm.model.Product;
+
+public class HibProductDAOImpl implements ProductDAO{
+	
+	private SessionFactory sessionFactory;
+	
+	
+
+	@Override
+	public void save(Product product) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Product> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product find(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void update(Product product) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

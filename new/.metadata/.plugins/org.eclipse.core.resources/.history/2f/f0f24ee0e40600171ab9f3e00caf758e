@@ -1,0 +1,5 @@
+package com.pm.dao;
+
+public class HibProductDAOImpl implements ProductDAO{
+
+}
