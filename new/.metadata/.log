@@ -2783,3 +2783,15 @@ java.lang.NullPointerException
 !MESSAGE Could not publish server configuration for Tomcat v8.0 Server at localhost.
 !SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2017-03-12 15:08:12.122
 !MESSAGE Multiple Contexts have a path of "/PM".
+
+!ENTRY org.eclipse.jface.text 2 0 2017-03-12 15:55:46.101
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-03-12 15:55:46.101
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-03-12 15:56:10.597
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-03-12 15:56:10.598
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'

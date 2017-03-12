@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+
+/*
+ *  Execution-Context
+ *  ------------------
+ *  
+ *  memory with args & local variables to execute instructions
+ *  
+ *  phases
+ *  
+ *  phase-1 : creation
+ *  
+ *  phase-2 : execution
+ * 
+ * 
+ */
+
+console.log(v);

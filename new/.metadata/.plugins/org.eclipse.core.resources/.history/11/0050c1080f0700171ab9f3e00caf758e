@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+
+
+/*
+ *  data-types
+ *  -----------
+ *  
+ *  1. primitives
+ *  
+ *  	a. string
+ *      b. number
+ *      c. boolean
+ *      d. undefined
+ *  
+ *  2. references
+ *  
+ * 
+ * 
+ */
+
+
+var name="Nag";
+
+
+
+
+
+
+
+
+
+
+
+

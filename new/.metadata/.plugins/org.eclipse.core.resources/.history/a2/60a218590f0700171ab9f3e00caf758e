@@ -1,0 +1,63 @@
+/**
+ * 
+ */
+
+
+/*
+ *  data-types
+ *  -----------
+ *  
+ *  1. primitives
+ *  
+ *  	a. string
+ *      b. number
+ *      c. boolean
+ *      d. undefined
+ *  
+ *  2. references
+ *  
+ * 
+ * 
+ */
+
+//----------------------------------------
+
+// a. string
+
+var name="Nag";
+var selection='a';
+
+//----------------------------------------
+
+// b. number
+
+var count=10;
+var cost=12.12;
+
+
+//----------------------------------------
+
+//c.boolean
+
+var isFound=true;
+
+
+//----------------------------------------
+
+// d. undefined
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
