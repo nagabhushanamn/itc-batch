@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<%@page import="com.app.model.Person"%>
+<%@page import="java.util.Date" %>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body class="container">
+
+	<div class="page-header">JSP learn</div>
+	
+	<!-- way-1 : scripting eleemnts -->
+	
+	<% Person p=(Person)request.getAttribute("person"); %>
+	
+	<div class="well">
+		Name : <%=p.getName() %> , Age : <%=p.getAge() %>
+	</div>
+	
+	<hr/>
+	
+	<hr/>
+	
+	<!-- way-1 : Action Tags -->
+	
+	<jsp:useBean id="person" class="com.app.model.Person"></jsp:useBean>
+	<div class="well">
+		Name : <jsp:getProperty property="name" name="person"/>
+		Age : <jsp:getProperty property="age" name="person"/>
+	</div>
+	
+	
+
+</body>
+</html>

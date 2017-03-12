@@ -11,7 +11,7 @@
 	<div class="page-header">JSP learn</div>
 	
 	<div class="well">
-		Hello (name) , Welcome to world
+		Hello <%=request.getAttribute("user") %>, Welcome to world
 	</div>
 	<hr/>
 	

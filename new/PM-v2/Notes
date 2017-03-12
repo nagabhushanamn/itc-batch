@@ -1,0 +1,64 @@
+
+
+ -----------------------------------------
+       
+ relational model:
+ -----------------
+ 
+ 
+ create database pm;
+ use pm;
+ 
+ create table pm.PRODUCTS(
+ id int primary key auto_increment,
+ name varchar(200),
+ price double,
+ makeDate date,
+ description varchar(200)
+ );
+ 
+ 
+ -----------------------------------------
+
+
+ Object Model
+ --------------
+ 
+ product
+   
+       id
+       name
+       price
+       makeDate
+       desc
+       
+ --------------------------------------
+       
+   Layer(s)
+   
+   --> Data Layer ==> persisting logic ( using JDBC or ORM F.Ws )
+   --> Service Layer ==> processing logic
+   
+--------------------------------------   
+   
+   View
+   
+   
+    --> welcome page ( static ) ==> index.html
+    
+    --> PM-view      ( dynamic ) ==> pm.jsp
+   
+ ------------------------------------------------
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      
+      

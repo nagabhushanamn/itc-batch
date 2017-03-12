@@ -24,6 +24,7 @@ public class HelloServlet extends HttpServlet {
 		
 		// process
 		
+		request.setAttribute("user", userName);
 		// Output
 		request.getRequestDispatcher("welcome.jsp").forward(request, response);
 		
