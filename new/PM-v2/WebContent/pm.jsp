@@ -86,7 +86,7 @@
 							<label>Price</label> <input name="price" class="form-control">
 						</div>
 						<div class="form-group">
-							<label>Make-Date</label> <input name="makeDate"
+							<label>Make-Date ( dd/mm/yyyy )</label> <input name="makeDate"
 								class="form-control">
 						</div>
 						<div class="form-group">
