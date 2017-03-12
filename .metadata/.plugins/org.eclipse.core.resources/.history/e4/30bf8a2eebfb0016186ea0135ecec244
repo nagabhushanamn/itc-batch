@@ -1,0 +1,8 @@
+package com.shop.entity;
+
+public class ChapterID {
+	
+	private int idx;
+	private String isbn;
+
+}

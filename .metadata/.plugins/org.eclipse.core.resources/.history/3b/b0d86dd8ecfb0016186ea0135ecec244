@@ -1,0 +1,55 @@
+package com.shop.entity;
+
+import java.io.Serializable;
+
+import javax.persistence.Embeddable;
+
+@Embeddable
+public class ChapterID implements Serializable {
+	
+	private int idx;
+	private String isbn;
+
+	
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + idx;
+		result = prime * result + ((isbn == null) ? 0 : isbn.hashCode());
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		ChapterID other = (ChapterID) obj;
+		if (idx != other.idx)
+			return false;
+		if (isbn == null) {
+			if (other.isbn != null)
+				return false;
+		} else if (!isbn.equals(other.isbn))
+			return false;
+		return true;
+	}
+	public int getIdx() {
+		return idx;
+	}
+	public void setIdx(int idx) {
+		this.idx = idx;
+	}
+	public String getIsbn() {
+		return isbn;
+	}
+	public void setIsbn(String isbn) {
+		this.isbn = isbn;
+	}
+	
+	
+
+}

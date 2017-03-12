@@ -1,0 +1,7 @@
+package com.shop.entity;
+
+public class NonTechEmployee extends Employee {
+	
+	private String division;
+
+}

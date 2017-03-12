@@ -1,0 +1,23 @@
+package com.shop.entity;
+
+public class ChapterID {
+	
+	private int idx;
+	private String isbn;
+	
+	public int getIdx() {
+		return idx;
+	}
+	public void setIdx(int idx) {
+		this.idx = idx;
+	}
+	public String getIsbn() {
+		return isbn;
+	}
+	public void setIsbn(String isbn) {
+		this.isbn = isbn;
+	}
+	
+	
+
+}

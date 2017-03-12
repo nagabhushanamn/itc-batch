@@ -1,0 +1,42 @@
+package com.shop.crud;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.shop.entity.Employee;
+import com.shop.entity.TechEmployee;
+
+public class EM {
+	
+	public static void main(String[] args) {
+		
+		Employee employee=new Employee();
+		employee.setId(1);
+		employee.setName("EMPLOYEE");
+		
+		TechEmployee techEmployee=new TechEmployee();
+		techEmployee.setId(2);
+		techEmployee.setName("TechEMPLOYEE");
+		
+		NonTe
+
+		// Using Hibernate API
+		
+		Configuration cfg=new Configuration();
+		cfg.configure("hibernate.cfg.xml");
+		SessionFactory sessionFactory=cfg.buildSessionFactory();
+		
+		Session session=sessionFactory.openSession();
+		session.getTransaction().begin();
+
+		
+		session.getTransaction().commit();
+		sessionFactory.close();
+
+		System.out.println("New Book inserted..");
+		
+		
+	}
+
+}

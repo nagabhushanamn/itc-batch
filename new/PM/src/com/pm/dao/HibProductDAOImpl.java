@@ -1,0 +1,70 @@
+package com.pm.dao;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.pm.model.Product;
+
+public class HibProductDAOImpl implements ProductDAO {
+
+	private static SessionFactory sessionFactory;
+
+	static {
+		Configuration configuration = new Configuration();
+		configuration.configure();
+		sessionFactory = configuration.buildSessionFactory();
+	}
+
+	@Override
+	public void save(Product product) {
+		Session session = sessionFactory.openSession();
+		session.getTransaction().begin();
+		session.save(product);
+		session.getTransaction().commit();
+		session.close();
+	}
+
+	@Override
+	public List<Product> findAll() {
+		String hql = "from Product";
+		Session session = sessionFactory.openSession();
+		Query query = session.createQuery(hql);
+		List<Product> products = query.list();
+		session.close();
+		return products;
+	}
+
+	@Override
+	public Product find(int id) {
+		Session session = sessionFactory.openSession();
+		session.getTransaction().begin();
+		Product product = (Product) session.get(Product.class, id);
+		session.getTransaction().commit();
+		session.close();
+		return product;
+	}
+
+	@Override
+	public void update(Product product) {
+		Session session = sessionFactory.openSession();
+		session.getTransaction().begin();
+		session.update(product);
+		session.getTransaction().commit();
+		session.close();
+	}
+
+	@Override
+	public void delete(int id) {
+		Session session = sessionFactory.openSession();
+		session.getTransaction().begin();
+		Product product = (Product) session.load(Product.class, id);
+		session.delete(product);
+		session.getTransaction().commit();
+		session.close();
+	}
+
+}

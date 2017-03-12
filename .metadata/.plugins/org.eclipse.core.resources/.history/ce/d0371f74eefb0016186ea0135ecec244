@@ -1,0 +1,20 @@
+package com.shop.entity;
+
+import javax.persistence.Entity;
+
+@Entity
+public class NonTechEmployee extends Employee {
+	
+	private String division;
+
+	public String getDivision() {
+		return division;
+	}
+
+	public void setDivision(String division) {
+		this.division = division;
+	}
+	
+	
+
+}

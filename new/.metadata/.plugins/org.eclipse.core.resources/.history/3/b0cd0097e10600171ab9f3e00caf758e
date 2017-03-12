@@ -1,0 +1,13 @@
+
+
+JSP - scripting Elements
+----------------------------
+
+
+1. scriptlet
+
+    syntax
+    
+    <%
+    		// any java-code
+    %>

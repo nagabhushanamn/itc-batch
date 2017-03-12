@@ -1,0 +1,7 @@
+package com.shop.entity;
+
+public class TechEmployee extends Employee {
+	
+	private String skill;
+
+}

@@ -1,0 +1,62 @@
+
+
+JSP - scripting Elements
+----------------------------
+
+   
+ ----------------------------------------------
+ 
+1. scriptlet
+
+    syntax
+    
+    <%
+    		// any java-code   ==> _jspService()
+    %>
+    
+ ----------------------------------------------
+    
+2. expression/assignmeet scripting eleemnt
+
+ syntax
+ 
+   <%= expression %>
+   
+   
+----------------------------------------------
+   
+ 3. declaration scripting eleemnt
+ 
+ syntax
+ 
+ <%!  %>  
+   
+   
+   use :
+   
+      to declare instance/static variables & methods in JS
+   
+   
+----------------------------------------------
+
+4. JSP comment Line
+
+
+<%-- JSP comment --%>
+
+----------------------------------------------
+
+5. directive scripting element
+
+
+<%@directive %>
+
+
+
+
+
+   
+   
+   
+   
+    

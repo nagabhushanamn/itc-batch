@@ -1,0 +1,35 @@
+
+
+JSP - scripting Elements
+----------------------------
+
+   
+ ----------------------------------------------
+ 
+1. scriptlet
+
+    syntax
+    
+    <%
+    		// any java-code   ==> _jspService()
+    %>
+    
+ ----------------------------------------------
+    
+2. expression/assignmeet scripting eleemnt
+
+ syntax
+ 
+   <%= expression %>
+   
+   
+----------------------------------------------
+   
+   
+   
+   
+   
+   
+   
+   
+    

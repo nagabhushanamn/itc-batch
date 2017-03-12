@@ -1,0 +1,19 @@
+package com.pm.dao;
+
+import java.util.List;
+
+import com.pm.model.Product;
+
+public interface ProductDAO {
+
+	void save(Product product);
+
+	List<Product> findAll();
+
+	Product find(int id);
+
+	void update(Product product);
+
+	void delete(int id);
+
+}

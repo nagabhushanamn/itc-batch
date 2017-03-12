@@ -1,0 +1,62 @@
+package com.shop.crud;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.mysql.jdbc.Driver;
+import com.shop.entity.Book;
+
+public class RetreiveBook {
+
+	public static void main(String[] args) throws SQLException {
+
+		// ----------------------------------
+		
+		/*
+		 *  4 ways in hibernate to select data
+		 *  
+		 *  1. by primary key  , session.get()
+		 *  2. using HQL ( Hibernate Query Language )
+		 *  3. using Criteria API
+		 *  4. Using Native SQL
+		 * 
+		 * 
+		 */
+		
+		//-----------------------------------
+
+
+		// Using Hibernate API
+		
+		Configuration cfg=new Configuration();
+		cfg.configure("hibernate.cfg.xml");
+		SessionFactory sessionFactory=cfg.buildSessionFactory();
+		
+		Session session=sessionFactory.openSession();
+		session.getTransaction().begin();
+
+		Book book=session.get(Book.class, 1111);
+		
+		
+		session.getTransaction().commit();
+		sessionFactory.close();
+
+		
+		
+		// display in console
+		System.out.println(book);
+		
+		
+
+	}
+
+}

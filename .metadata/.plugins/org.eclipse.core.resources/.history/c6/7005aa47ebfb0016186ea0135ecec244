@@ -1,0 +1,30 @@
+package com.shop.entity;
+
+import java.io.Serializable;
+
+import javax.persistence.Embeddable;
+
+@Embeddable
+public class ChapterID implements Serializable {
+	
+	private int idx;
+	private String isbn;
+	
+	
+	
+	public int getIdx() {
+		return idx;
+	}
+	public void setIdx(int idx) {
+		this.idx = idx;
+	}
+	public String getIsbn() {
+		return isbn;
+	}
+	public void setIsbn(String isbn) {
+		this.isbn = isbn;
+	}
+	
+	
+
+}
