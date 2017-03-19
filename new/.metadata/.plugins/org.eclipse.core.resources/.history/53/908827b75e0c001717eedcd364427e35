@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+
+
+// Model
+
+var item={
+		name:'Laptop',
+		price:192000,
+		description:'New Mac pro Laptop'
+};
+
+
+// plain-js
+
+document.querySelectorAll('h3')[0].textContent=item.name;
+
+
+
+

@@ -1,0 +1,52 @@
+/**
+ * 
+ */
+
+// Model
+var item = {
+	name : 'Laptop',
+	price : 192000,
+	description : 'New Mac pro Laptop'
+};
+
+//--------------------------------------------------------------
+
+//way-1 - plain-js
+
+//document.querySelector('h3').textContent = item.name;
+//document.querySelector('h4').textContent = item.price;
+//document.querySelector('p').textContent = item.description;
+
+//--------------------------------------------------------------
+
+//way-2 - jQuery
+//$(document).ready(function(){
+//	$('h3').text(item.name);
+//	$('h4').text(item.price);
+//	$('p').text(item.description);
+//});
+
+//--------------------------------------------------------------
+
+// way-3 - Angular
+
+var shopMod=angular.module('shop', []);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
