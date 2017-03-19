@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+
+
+/*
+
+	this ==> owner of current execution-context
+	
+
+*/
+
+// wh we need 'this' keyword

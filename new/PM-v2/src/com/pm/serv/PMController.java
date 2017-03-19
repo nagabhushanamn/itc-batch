@@ -95,14 +95,14 @@ public class PMController extends HttpServlet {
 			productDAO.update(product);
 		}
 
-		// List<Product> products = productDAO.findAll();
+		//		 List<Product> products = productDAO.findAll();
 		//
-		// req.setAttribute("allProducts", products);
-		//
-		// RequestDispatcher rd = req.getRequestDispatcher("pm.jsp");
-		// rd.forward(req, resp);
+		//		 req.setAttribute("allProducts", products);
+		//		
+		//		 RequestDispatcher rd = req.getRequestDispatcher("pm.jsp");
+		//		 rd.forward(req, resp);
 
-		resp.sendRedirect("pm");
+		 resp.sendRedirect("pm");
 
 	}
 

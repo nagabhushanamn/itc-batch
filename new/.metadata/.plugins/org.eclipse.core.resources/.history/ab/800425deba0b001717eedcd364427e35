@@ -1,0 +1,58 @@
+/**
+ * 
+ */
+//
+//document.addEventListener('DOMContentLoaded',function(){
+//	
+//	var box=document.getElementsByClassName("well")[0];
+//	var hideBtn=document.getElementsByClassName('btn-danger')[0];
+//	var showBtn=document.getElementsByClassName('btn-primary')[0];
+//	var successBtn=document.getElementsByClassName('btn-success')[0];
+//
+//
+//
+//	successBtn.addEventListener('click',function(){
+//		box.textContent=" i need biryani";
+//	});
+//
+//	hideBtn.addEventListener('click',function(){
+//		box.style.display='none';
+//	});
+//
+//	showBtn.addEventListener('click',function(){
+//		box.style.display='';
+//	});
+//
+//	
+//})
+
+//--------------------------------------------------------
+
+
+/*
+ * 
+ *  basic syntax to use jQuery
+ *  ---------------------------
+ *  
+ *  ==> jQuery()  | $()
+ *  
+ *  syntax:
+ *  
+ *  $(select-dom).action1().action2()
+ * 
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

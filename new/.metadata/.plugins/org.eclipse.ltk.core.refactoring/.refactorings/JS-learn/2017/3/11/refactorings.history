@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JS-learn/WebContent/this-keyyword.js&apos; to &apos;4.this-keyyword.js&apos;" description="Rename resource &apos;this-keyyword.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/this-keyyword.js" name="4.this-keyyword.js" stamp="1489815348926" updateReferences="true"/>
+</session>

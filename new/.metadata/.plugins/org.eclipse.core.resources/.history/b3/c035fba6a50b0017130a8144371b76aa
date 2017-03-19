@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index</title>
+<link href="css/bootstrap.css" rel="stylesheet"/>
+</head>
+<body class="container">
+
+	<div class="page-header">simple-web-app</div>
+	
+	<div class="well">
+		Welcome to JS-world
+	</div>
+	<button class="btn btn-primary">show</button>
+	<button class="btn btn-danger">hide</button>
+	<button class="btn btn-danger">What you need?</button>
+	
+	<script src="my-script.js"></script>
+
+</body>
+</html>

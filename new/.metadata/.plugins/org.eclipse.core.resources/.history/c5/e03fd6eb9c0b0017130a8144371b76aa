@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+
+
+function teach(sub){
+	
+	console.log('teaching '+sub);
+	var notes=sub+" notes";
+	
+}

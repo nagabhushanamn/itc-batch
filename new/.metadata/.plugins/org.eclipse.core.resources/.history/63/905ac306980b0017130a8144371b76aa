@@ -1,0 +1,40 @@
+/**
+ * 
+ */
+
+
+/*
+
+	this ==> owner of current execution-context
+	
+
+*/
+
+// why we need 'this' keyword
+
+var person={
+		name:'Nag',
+		sayName:function(){
+			console.log('im '+name);
+		}
+};
+
+person.sayName(); // sayName-context
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

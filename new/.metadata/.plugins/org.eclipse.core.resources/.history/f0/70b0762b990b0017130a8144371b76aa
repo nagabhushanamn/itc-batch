@@ -1,0 +1,21 @@
+package simple;
+
+class Person{
+	String name;
+	void sayName(){
+		System.out.println("im "+name);
+	}
+}
+
+public class Demo {
+	
+	public static void main(String[] args) {
+		
+		Person person=new Person();
+		person.name="Nag";
+		
+		person.sayName();
+		
+	}
+
+}

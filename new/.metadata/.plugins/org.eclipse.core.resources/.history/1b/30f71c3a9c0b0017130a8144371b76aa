@@ -1,0 +1,92 @@
+/**
+ * 
+ */
+
+
+/*
+
+	this ==> owner of current execution-context
+	
+
+*/
+
+// why we need 'this' keyword
+
+
+//var pName="itc";
+//var person={
+//		pName:'Nag',
+//		sayName:function(){
+//			//console.log('im '+pName);
+//			//console.log('im '+person.pName);
+//			console.log('im '+this.pName);
+//		}
+//};
+//
+////person.sayName(); // sayName-context
+//
+//var p=person;
+//person={pName:'Ria'};
+//p.sayName();
+//
+
+
+//---------------------------------------------------------------------
+
+
+//
+//var p1={name:'Nag',sayName:function(){console.log('im '+this.name);}};
+//var p2={name:'Ria',sayName:function(){console.log('im '+this.name);}};
+
+//
+//function sayNameForAll(){
+//	console.dir(this);
+//	console.log('im '+this.name);
+//}
+//
+//var p1={name:'Nag',sayName:sayNameForAll};
+//var p2={name:'Ria',sayName:sayNameForAll};
+//
+//
+//sayNameForAll(); // im ??
+//p1.sayName();  // im Nag
+//p2.sayName();  // im Ria
+
+
+//---------------------------------------------------------------------
+
+// constructor / class
+
+function Person(name,age){
+	this.name=name;
+	this.age=age;
+	
+	this.sayName=function(){
+		console.log('im '+this.name);
+	}
+	this.sayAge=function(){
+		console.log('im '+this.age +" old..");
+	}
+	
+}
+
+var p1=new Person('Nag',32);
+var p2=new Person('Nag',2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

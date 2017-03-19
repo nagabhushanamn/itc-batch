@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JS-learn</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body class="container">
+
+	<div class="page-header">JS-learn</div>
+	<hr/>
+	
+	<div class="well">Welcome to JS-world</div>
+
+	<!-- <script type="text/javascript" src="0.hello.js"></script> -->
+	<!-- <script type="text/javascript" src="1.data-types.js"></script> -->
+	<!-- <script type="text/javascript" src="2.execution-context.js"></script> -->
+	<!--  <script type="text/javascript" src="3.function-depth.js"></script> -->
+
+	<!-- <script type="text/javascript" src="quiz.js"></script> -->
+	
+	<!-- <script type="text/javascript" src="this-keyword.js"></script> -->	
+	
+	
+		
+
+</body>
+</html>

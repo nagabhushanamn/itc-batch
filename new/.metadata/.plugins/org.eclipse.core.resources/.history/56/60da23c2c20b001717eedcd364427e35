@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index</title>
+<link href="css/bootstrap.css" rel="stylesheet" />
+
+</head>
+<body class="container">
+
+
+	<div class="page-header">simple-web-app</div>
+
+	<div class="well">Welcome to JS-world</div>
+
+	<button class="btn btn-primary">show</button>
+	<button class="btn btn-danger">hide</button>
+	<button class="btn btn-success">What do you need?</button>
+
+	<hr/>
+	
+	<h1 id="comp"> Welcome to ITC</h1>
+	<h1 class="city"> Welcome to BLR</h1>
+	
+	<hr/>
+	
+	
+	<div id="box1">
+	
+	</div>
+	
+	<p> One </p>
+	
+	<p> Two </p>
+	
+	<h3></h3>
+	
+	<p> Three </p>
+		
+		
+	
+	
+
+	<script type="text/javascript" src="jquery-3.2.0.js"></script>
+	<script src="my-script.js"></script>
+	
+</body>
+</html>

@@ -37,9 +37,10 @@
 
 //
 //var v=12;
+
 //function f(){
 //	console.log(v);
-//	var v=13;
+//var v=13;
 //}
 //f(); // f-context  ==> global-context
 
@@ -51,12 +52,13 @@
 var v=12;
 
 function f1(){
-	var v=13;
+	
 	function f2(){
 		console.log(v);
 	}
 	f2(); // f2-context ==> f1-context
-	
+	var v=13;
+	f2();
 }
 f1(); //f1-conhtext  ==> global-conhtext
 
