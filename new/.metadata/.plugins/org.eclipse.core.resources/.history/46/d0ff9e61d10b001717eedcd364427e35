@@ -1,0 +1,45 @@
+package com.myfacebook.serv;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.myfacebook.dao.PostDAOImpl;
+import com.myfacebook.model.Post;
+
+/**
+ * Servlet implementation class PostController
+ */
+@WebServlet("/save-post")
+public class PostController extends HttpServlet {
+
+	PostDAOImpl postDAO = new PostDAOImpl();
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		String email = request.getParameter("email");
+		String message = request.getParameter("message");
+
+		Post post = new Post();
+		post.setEmail(email);
+		post.setMessage(message);
+
+		postDAO.save(post);
+		
+		
+		response.setContentType("application/json");
+		
+		PrintWriter out=response.getWriter();
+		out.print("{}");
+		
+		
+
+	}
+
+}

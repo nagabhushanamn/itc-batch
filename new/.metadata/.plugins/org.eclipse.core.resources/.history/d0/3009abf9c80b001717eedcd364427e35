@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+
+
+$(document).ready(function(){
+	
+	
+	var postForm=$('#post-form');
+	postForm.submit(function(e) {
+		
+		var email=$('#email',this);
+		
+		e.preventDefault();
+	});
+	
+});

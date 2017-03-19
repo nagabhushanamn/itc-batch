@@ -1,0 +1,68 @@
+
+
+
+ what .js-lang can do on HTML-page in browser-envi?
+ 
+ 
+ 
+  using browser provided APIs , can do any magic to HTML page.
+  
+  browser provided APIs
+  
+  e.g
+  
+     --> DOM ( Document Object Model )
+   
+   using DOM
+   ------------
+    --> can create,retrieve,update,delete HTML elements.
+    --> can change element's attributes
+    --> can change element's style
+    --> can change element's text
+    --> can change element's inner-content
+    --> can listen events on Elements 
+    --> can create rich UI components
+    --> can validate form-fields before submit
+    
+    
+    --> can communicate with server async, update results in page ( AJAX )
+    
+    
+    
+    
+    --------------------------------------------------------------
+    
+    
+    complexities of plain-js:
+    
+    
+    --> browser compatability iisues.
+    
+    --> performance issues ( e.g DOM manipulation )
+    --> memory leaks ( e,g cleaning un-used DOM elements , etc.. )
+    
+    --> too much code for simple operations
+    
+    ------------------------------------------------------------
+    
+    solns :
+    
+      --> using .js libraries
+      
+      e.g
+      
+       jQuery
+       
+       
+     -----------------------------------------------------------  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

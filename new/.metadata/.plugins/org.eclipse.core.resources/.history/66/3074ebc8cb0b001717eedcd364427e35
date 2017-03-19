@@ -1,0 +1,39 @@
+/**
+ * 
+ */
+
+
+$(document).ready(function(){
+	
+	
+	var postForm=$('#post-form');
+	
+	postForm.submit(function(e) {
+		
+		var emailField=$('#email',this);
+		var messageField=$('#message',this);
+		
+		var email=emailField.val();
+		var message=messageField.val();
+		
+		if(email===""){
+			var div=emailField.closest('div');
+			div.addClass('has-error');
+			emailField.after($('<div class="help-block">Email is Required</div>'));
+			emailField.get(0).focus();
+		}else{
+			var div=emailField.closest('div');
+			div.removeClass('has-error');
+			$('.help-block',div).remove();
+		}
+	
+		e.preventDefault();
+		
+	});
+	
+});
+
+
+
+
+

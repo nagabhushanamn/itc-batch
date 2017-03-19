@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+
+
+$(document).ready(function(){
+	
+	
+	var postForm=$('#post-form');
+	
+	postForm.submit(function(e) {
+		
+		var emailField=$('#email',this);
+		var messageField=$('#message',this);
+		
+		var email=emailField.val();
+		var message=messageField.val();
+		
+		var post={
+				email:email,
+				message:message
+		};
+		
+		// send this post to server...
+		
+		
+		
+		e.preventDefault();
+	});
+	
+});

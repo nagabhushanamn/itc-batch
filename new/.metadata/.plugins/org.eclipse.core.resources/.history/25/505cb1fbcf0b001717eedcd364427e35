@@ -1,0 +1,5 @@
+package com.myfacebook.model;
+
+public class Post {
+
+}

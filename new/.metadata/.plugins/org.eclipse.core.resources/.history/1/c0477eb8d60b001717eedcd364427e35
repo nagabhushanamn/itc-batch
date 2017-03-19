@@ -1,0 +1,64 @@
+/**
+ * 
+ */
+
+$(document).ready(function() {
+
+	
+	var box=$('#all-posts');
+	
+	$.ajax({
+		url:'/my-facebook/load-all-posts',
+		method:'GET',
+		success:function(resp){
+			
+			resp.forEach(function(post){
+				
+				var template=`
+					<div>
+						<small>${post.email}</small>
+						<p>${post.message}</p>
+					</div>
+				`'
+				
+			});
+			
+			
+		}
+	});
+	
+	
+	
+	var postForm = $('#post-form');
+
+	postForm.submit(function(e) {
+
+		var emailField = $('#email', this);
+		var messageField = $('#message', this);
+
+		var email = emailField.val();
+		var message = messageField.val();
+
+		var post = {
+			email : email,
+			message : message
+		};
+
+		$.ajax({
+			url : "/my-facebook/save-post",
+			method : 'POST',
+			data : post,
+			success : function(resp) {
+				console.log(resp);
+			},
+			failure : function() {
+				console.log("failed...");
+			}
+
+		});
+
+		e.preventDefault();
+
+	});
+
+});
