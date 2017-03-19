@@ -1,0 +1,31 @@
+package com;
+
+
+/*
+ * 
+ *     MRF
+ * 
+ * 
+ */
+
+interface Wheel{
+	void rotate();
+	void commonMethod();
+}
+
+
+
+class TwoWheelerWheel implements Wheel{
+	
+}
+
+class FourWheelerWheel implements Wheel{
+	
+}
+
+
+public class Demo {
+	public static void main(String[] args) {
+		
+	}
+}
