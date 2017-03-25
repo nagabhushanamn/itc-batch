@@ -1,0 +1,42 @@
+
+
+Java Build-Tools
+
+  --> ANT ( Another Neat Tool)
+  --> Maven
+  --> Gradle
+  --> Ivy
+  --> OSGI
+
+  ---------------------
+
+  what is Maven?
+
+   --> java build-tool
+   --> dependency management-tool
+   --> document generation tool
+       
+        --> bug reports
+        --> code-style reports
+        --> unit-testing reports
+
+------------------------------------
+
+how to install Maven ?
+
+
+1. command-line use       
+
+   --> download maven from apache-site and configure
+
+2. to use in IDE
+
+   --> all latest IDE , already have maven installed.     
+
+-------------------------------------
+
+
+How Maven works ?
+
+
+	ref : https://www.slideshare.net/joaomiguel.pereira/an-introduction-to-maven?qid=80570ba7-0a0b-45ae-84fa-2ca6789f3396&v=&b=&from_search=1

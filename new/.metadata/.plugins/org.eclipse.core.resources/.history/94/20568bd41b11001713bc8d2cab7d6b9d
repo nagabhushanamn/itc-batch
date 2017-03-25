@@ -1,0 +1,22 @@
+package com.app.test.calc;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import com.app.calc.Calc;
+
+public class CalcTest {
+	
+	private Calc calc=null;
+	
+	@BeforeClass
+	public void init() {
+		
+	}
+	
+	@Test
+	public void add() {
+		
+	}
+
+}
