@@ -1,0 +1,17 @@
+package com;
+
+class Person{
+	String name;
+	void sayName(){
+		System.out.println("im "+name);
+	}
+}
+
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

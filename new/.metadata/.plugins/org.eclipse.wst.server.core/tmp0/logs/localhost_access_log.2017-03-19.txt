@@ -422,3 +422,12 @@
 0:0:0:0:0:0:0:1 - - [19/Mar/2017:12:56:14 +0530] "GET /shop_IT_v1/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
 0:0:0:0:0:0:0:1 - - [19/Mar/2017:12:56:14 +0530] "GET /shop_IT_v1/images/Laptop.png HTTP/1.1" 200 2139
 0:0:0:0:0:0:0:1 - - [19/Mar/2017:12:56:14 +0530] "GET /shop_IT_v1/images/Mobile.png HTTP/1.1" 200 9270
+0:0:0:0:0:0:0:1 - - [19/Mar/2017:15:44:27 +0530] "GET /shop_IT_v1/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Mar/2017:15:44:27 +0530] "GET /shop_IT_v1/css/bootstrap.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Mar/2017:15:44:27 +0530] "GET /shop_IT_v1/jquery-3.2.0.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Mar/2017:15:44:27 +0530] "GET /shop_IT_v1/my-shop.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Mar/2017:15:44:27 +0530] "GET /shop_IT_v1/angular-1.6.3/angular.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Mar/2017:15:44:28 +0530] "GET /shop_IT_v1/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Mar/2017:15:44:28 +0530] "GET /shop_IT_v1/images/Mobile.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Mar/2017:15:44:28 +0530] "GET /shop_IT_v1/images/Laptop.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Mar/2017:15:44:28 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
