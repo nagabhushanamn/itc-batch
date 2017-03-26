@@ -1,0 +1,19 @@
+package com.shop;
+
+import com.shop.bill.BillingImpl;
+
+public class App {
+
+	public static void main(String[] args) {
+
+		// init..
+
+		BillingImpl billComp = new BillingImpl();
+
+		// Use
+
+		// destroy
+
+	}
+
+}

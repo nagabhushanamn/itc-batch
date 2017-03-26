@@ -1,0 +1,16 @@
+package com.shop;
+
+class Product{
+	int id;
+	String name;
+	double price;
+	
+}
+
+public class MaxPrice {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

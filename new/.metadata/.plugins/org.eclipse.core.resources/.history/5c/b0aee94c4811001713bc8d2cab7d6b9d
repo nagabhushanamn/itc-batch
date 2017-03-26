@@ -1,0 +1,7 @@
+package com.shop;
+
+public class MaxPrice {
+	
+System.out.println("Hello");	
+
+}

@@ -34,4 +34,12 @@
 <fullyQualifiedTypeName name="com.Box"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="java.lang.Iterable"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.junit.BeforeClass"/>
+<fullyQualifiedTypeName name="com.app.calc.Calc"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="com.shop.bill.BillingImpl"/>
+<fullyQualifiedTypeName name="com.shop.pm.PriceMatrix"/>
+<fullyQualifiedTypeName name="com.shop.pm.PriceMatrixImpl_v1"/>
+<fullyQualifiedTypeName name="com.shop.pm.PriceMatrixImpl_v2"/>
 </qualifiedTypeNameHistroy>

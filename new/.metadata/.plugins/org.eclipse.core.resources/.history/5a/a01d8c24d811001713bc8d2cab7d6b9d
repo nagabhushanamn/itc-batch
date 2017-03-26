@@ -1,0 +1,50 @@
+
+
+  shopIT
+  ---------
+  
+  	1. Billing : getTotalprice(cart)
+  	
+  	2. PriceMatrix : getPrice(item)
+  	
+  	
+ -------------------------------------
+ 
+ 
+
+ 	#1
+ 	
+ 	A B C D E F G H G F E D C B A
+ 	A B C D E F G   G F E D C B A
+ 	A B C D E F       F E D C B A
+ 	A B C D E 	        E D C B A
+ 	A B C D  	          D C B A
+ 	A B C  	          		C B A
+ 	A B                       B A
+ 	A                           A 
+ 	
+ 	#2
+ 	{id:23123,name:'Laptop',price:4000}
+ 	{id:23123,name:'Mobile',price:3000}
+ 	{id:23123,name:'Camera',price:8000}
+ 	{id:23123,name:'Other',price:6000}
+ 
+ 		find product product with max price
+ 	
+ 		in java or .js lang
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  	
+  
